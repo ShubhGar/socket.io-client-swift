@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.5
 
 import PackageDescription
 
@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "SocketIO",type: .dynamic, targets: ["SocketIO"])
     ],
     dependencies: [
-        .package(url: "https://github.com/daltoniam/Starscream", .upToNextMinor(from: "3.1.0")),
+        .package(name: "Starscream", url: "https://github.com/ShubhGar/Starscream", branch: "Fix/SPM")
     ],
     targets: [
         .target(name: "SocketIO", dependencies: ["Starscream"]),

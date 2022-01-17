@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "SocketIO",
     products: [
-        .library(name: "SocketIO", targets: ["SocketIO"])
+        .library(name: "SocketIO",type: .dynamic, targets: ["SocketIO"])
     ],
     dependencies: [
         .package(url: "https://github.com/daltoniam/Starscream", .upToNextMinor(from: "3.1.0")),

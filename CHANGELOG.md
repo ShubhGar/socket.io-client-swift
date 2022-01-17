@@ -1,3 +1,16 @@
+# v16.0.0
+
+- Removed Objective-C support. It's time for you to embrace Swift.
+- Socket.io 3 support.
+
+# v15.3.0
+
+- Add `==` operators for `SocketAckStatus` and `String`
+
+# v15.2.0
+
+- Small fixes.
+
 # v15.1.0
 
 - Add ability to enable websockets SOCKS proxy.
